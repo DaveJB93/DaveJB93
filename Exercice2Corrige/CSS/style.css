@@ -1,0 +1,23 @@
+/*CSS.CSS*/
+/*Crée par dave Jean Baptiste */
+/* Crée le 23 avril 2020*/
+
+body {
+
+    width: 980px;/* largeur du site web*/
+    width: 100%; /* On pourrait aussi prendre 100% de la largeur */
+    margin: auto; /* pour centrer le site en largeur */
+    background-color: lightblue; /*couleur du background */
+
+}
+
+h1 {
+
+    color: black;
+    font-size: 36px;
+}
+h2 {
+
+    color: blue;
+    font-size: 24px;
+}
