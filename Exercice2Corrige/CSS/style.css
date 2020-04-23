@@ -10,14 +10,45 @@ body {
     background-color: lightblue; /*couleur du background */
 
 }
+p {
+
+    color: black;
+    font-size: 36px;
+    text-align:center;
+}
 
 h1 {
 
     color: black;
     font-size: 36px;
+    text-align:center;
 }
 h2 {
 
     color: blue;
     font-size: 24px;
+    text-align:center;
+}
+h3 {
+
+    color: blue;
+    font-size: 18px;
+    text-align:center;
+}
+ul{
+    color: blue;
+    font-size: 12px;
+    text-align:center;
+}
+table
+{
+    margin: auto;
+}
+td
+{
+    text-align :center;
+}
+{
+    image: url("img/images_GM2.jpg");
+    repeat: no-repeat;
 }
