@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ec8b756-8a45-4f01-a9d9-f4046a19719b" name="Default Changelist" comment="" />
+    <list default="true" id="d0422ad2-222b-4ed1-990c-7ca76ef9e2f5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1abdXwrLDupQJniYuOjfG0QOucQ" />
+  <component name="ProjectId" id="1b0uhUZiniiX6EBWCZDRsNcjhLr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,7 +34,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Integrationweb1/untitled" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -48,14 +47,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2ec8b756-8a45-4f01-a9d9-f4046a19719b" name="Default Changelist" comment="" />
-      <created>1587008270708</created>
+      <changelist id="d0422ad2-222b-4ed1-990c-7ca76ef9e2f5" name="Default Changelist" comment="" />
+      <created>1587781451966</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587008270708</updated>
-      <workItem from="1587008272182" duration="5837000" />
-      <workItem from="1587598564223" duration="7920000" />
-      <workItem from="1587779712482" duration="4095000" />
+      <updated>1587781451966</updated>
+      <workItem from="1587781453777" duration="10023000" />
+      <workItem from="1587856722338" duration="22690000" />
     </task>
     <servers />
   </component>
@@ -63,13 +61,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="292" y="118" key="FileChooserDialogImpl" timestamp="1587781591133">
+    <state x="207" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1587856843836">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="292" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1587781591133" />
-    <state x="207" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1587779735327">
-      <screen x="0" y="0" width="1024" height="728" />
-    </state>
-    <state x="207" y="186" key="com.intellij.ide.util.TipDialog/0.0.1024.728@0.0.1024.728" timestamp="1587779735327" />
+    <state x="207" y="186" key="com.intellij.ide.util.TipDialog/0.0.1024.728@0.0.1024.728" timestamp="1587856843836" />
   </component>
 </project>

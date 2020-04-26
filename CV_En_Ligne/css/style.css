@@ -1,0 +1,125 @@
+/*CSS.CSS*/
+/*Crée par dave Jean Baptiste */
+/* Crée le 25 avril 2020*/
+body {
+    font-family: 'century Gotic' ,Calibri,Serif ;
+    front-size: 13px;
+    width: 980px;/* largeur du site web*/
+    width: 100%; /* On pourrait aussi prendre 100% de la largeur */
+    margin: auto; /* pour centrer le site en largeur */
+    padding: 0px;
+}
+h1{
+    font-size: 40px;
+    front-weight:normal;
+    text-align:center;
+}
+
+head{
+    font-size: 100px;
+
+}
+
+footer{
+    text-align:center;
+    padding: 30px;
+    background-color: #C5C5C5;
+    border-top: 2px solid #AAA;
+}
+
+nav{
+    width: 100%;
+    background-color: grey;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
+
+.menu-ind:hover, .presentation{
+    border-top: 5px solid green;
+    background-color: rgba(64,200,130,0.15);
+}
+.menu-exp:hover, .parcours{
+    border-top: 5px solid yellow;
+    background-color: rgba(241,211,79,0.15);
+}
+.menu-hob:hover,.competence{
+    border-top: 5px solid blue;
+    background-color: rgba(000,112,192,0.15);
+}
+.menu-con:hover, .documentation{
+    border-top: 5px solid indianred;
+    background-color: rgba(228,77,38,0.15);
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+section{
+    width: 100%;
+    min-height: 300px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.sec{
+    margin:0px 10%;
+}
+
+.left{
+    float: left;
+    width: 35%;
+}
+.right{
+    float: left;
+    width: 65%;
+}
+.cleft, .cright, .sousleft, .sousright{
+    width: 50%;
+    float: left;
+}
+.sec::after, .exp::after,.docu::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+@media screen and (max-width: 780px){
+    header{
+        height: 50px;
+    }
+    h1{
+        front-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav li a{
+        front-size:12px;
+        padding: 10px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+}
