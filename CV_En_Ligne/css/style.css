@@ -105,7 +105,45 @@ section{
     clear: both;
 }
 
-
+.orange{
+    border: 5px solid orange;
+    background-color: rgba(228,77,128,0.15);
+    margin-bottom: 0px;
+}
+.rose{
+    border: 5px solid mistyrose;
+    background-color: rgba(228,117,38,0.15);
+    margin-bottom: 0px;
+}
+.vert{
+    border-top: 5px solid lightgreen;
+    background-color: rgba(70,240,80.0.15);
+}
+.bleu{
+    border-top: 5px solid lightskyblue;
+    background-color: rgba(30,152,212,0.15);
+}
+.jaune{
+    border-top: 5px solid lightyellow;
+    background-color: rgba(240,255,69,0.15);
+}
+.rouge{
+    border-top: 5px solid firebrick;
+    background-color: rgba(228,77,38,0.15);
+}
+.leftexp{
+    width: 45%;
+    float: left;
+}
+.rightexp{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+}
+.leftexp img{
+    width: 100%;
+    max-width: 400px;
+}
 
 @media screen and (max-width: 780px){
     header{
