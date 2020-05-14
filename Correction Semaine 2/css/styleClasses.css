@@ -1,0 +1,34 @@
+/**
+Dave Jean Baptiste
+Style.css
+**/
+
+body{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    width:900px;
+    margin:auto;
+}
+#mesEtudes{
+    background-color: #888888;
+}
+
+#sports{
+    background-color: white;
+}
+
+#loisirs{
+    background-color: darkgray;
+}
+#reve{
+    background-color: antiquewhite;
+}
+
+.belleImage{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.belleImage:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}

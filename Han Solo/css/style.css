@@ -1,0 +1,55 @@
+/**
+Dave Jean Baptiste
+Style.css
+**/
+
+body{
+    background-image: url("../img/etoileMort.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: auto;
+    width: 1000px;
+}
+
+@font-face {
+    font-family: maPolice;
+    src: url(../font/Starjedi.ttf);
+}
+
+h1 {
+    font-family: maPolice;
+    text-align: center;
+    font-size: 140px;
+    color: yellow;
+    margin: auto;
+}
+
+h2,h3,h4 {
+    color: white;
+    text-align:center;
+}
+
+h2 {
+    font-size: 72px;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+h4 {
+    font-size: 44px;
+    text-decoration: underline;
+    text-align: c;
+}
+
+p{
+    color: white;
+    text-align:justify;
+    font-size: 16px;
+}
+img{
+    margin:auto;
+    display:block;
+}
+

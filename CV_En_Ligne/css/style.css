@@ -58,20 +58,20 @@ nav a{
 }
 
 .menu-ind:hover, .presentation{
-    border-top: 5px solid green;
-    background-color: rgba(64,200,130,0.15);
+    border-top: 5px solid black;
+    background-color: rgba(225, 224, 224, 0.67);
 }
 .menu-exp:hover, .parcours{
-    border-top: 5px solid yellow;
-    background-color: rgba(241,211,79,0.15);
+    border-top: 5px solid black;
+    background-color: rgba(, 255, 255);
 }
 .menu-hob:hover,.competence{
-    border-top: 5px solid blue;
-    background-color: rgba(000,112,192,0.15);
+    border-top: 5px solid black;
+    background-color: rgba(225, 224, 224, 0.67);
 }
 .menu-con:hover, .documentation{
-    border-top: 5px solid indianred;
-    background-color: rgba(228,77,38,0.15);
+    border-top: 5px solid black;
+    background-color: rgba(, 255, 255);
 }
 nav li:hover a{
     padding: 15px 30px 20px 30px;
@@ -106,30 +106,30 @@ section{
 }
 
 .orange{
-    border: 5px solid orange;
-    background-color: rgba(228,77,128,0.15);
+    border: 5px solid ghostwhite;
+    background-color: rgba(0,0,0,0.15);
     margin-bottom: 0px;
 }
 .rose{
-    border: 5px solid mistyrose;
-    background-color: rgba(228,117,38,0.15);
+    border: 5px solid ghostwhite;
+    background-color: rgba(0,0,0,0.5);
     margin-bottom: 0px;
 }
 .vert{
-    border-top: 5px solid lightgreen;
+    border-top: 5px solid black;
     background-color: rgba(70,240,80.0.15);
 }
 .bleu{
-    border-top: 5px solid lightskyblue;
-    background-color: rgba(30,152,212,0.15);
+    border-top: 5px solid black;
+    background-color: rgba(0,0,0,0.15);
 }
 .jaune{
-    border-top: 5px solid lightyellow;
+    border-top: 5px solid black;
     background-color: rgba(240,255,69,0.15);
 }
 .rouge{
-    border-top: 5px solid firebrick;
-    background-color: rgba(228,77,38,0.15);
+    border-top: 5px solid whitesmoke;
+    background-color: rgba(, 255, 255);
 }
 .leftexp{
     width: 45%;

@@ -1,0 +1,60 @@
+/*CSS.CSS*/
+/*Crée par dave Jean Baptiste */
+/* Crée le 6-05-2020*/
+
+body{
+    background-image: url("../img/fondecran.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: auto;
+    width: 1000px;
+}
+@font-face {
+    font-family: maPolice;
+    src: url(../font/jagwi.ttf);
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 140px;
+    color: yellow;
+    margin: auto;
+}
+
+h2,h3,h4 {
+    color: white;
+    text-align:center;
+}
+
+h2 {
+    font-size: 70px;
+}
+
+h3 {
+    font-size: 58px;
+}
+
+h4 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+p{
+    font-family: maPolice;
+    color: white;
+    text-align:justify;
+    font-size: 30px;
+}
+img{
+    margin:auto;
+    display:block;
+}
+h4 {
+    text-decoration: underline yellow;
+}
+ul{
+    font-size: 22px;
+}
+.episode{
+    color: yellow;
+}

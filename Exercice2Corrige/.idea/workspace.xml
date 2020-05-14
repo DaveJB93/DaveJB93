@@ -34,7 +34,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Integrationweb1/untitled" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Correction Semaine 2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -56,6 +56,14 @@
       <workItem from="1587008272182" duration="5837000" />
       <workItem from="1587598564223" duration="7920000" />
       <workItem from="1587779712482" duration="4095000" />
+      <workItem from="1588202727996" duration="4683000" />
+      <workItem from="1588251926966" duration="1364000" />
+      <workItem from="1588386450961" duration="596000" />
+      <workItem from="1588809705318" duration="3391000" />
+      <workItem from="1588865105397" duration="1207000" />
+      <workItem from="1588968243584" duration="598000" />
+      <workItem from="1589039326911" duration="248000" />
+      <workItem from="1589409276185" duration="594000" />
     </task>
     <servers />
   </component>
@@ -63,10 +71,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="292" y="118" key="FileChooserDialogImpl" timestamp="1587781591133">
+    <state x="292" y="118" key="FileChooserDialogImpl" timestamp="1588809919067">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="292" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1587781591133" />
+    <state x="292" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1588809919067" />
     <state x="207" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1587779735327">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
