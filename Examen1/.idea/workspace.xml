@@ -17,10 +17,21 @@
   </component>
   <component name="ProjectId" id="1WFwM5druPumisY0AxKzxJkwDvm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -34,6 +45,8 @@
       <updated>1578758599109</updated>
       <workItem from="1578758600178" duration="32000" />
       <workItem from="1588808540672" duration="12000" />
+      <workItem from="1590014076810" duration="2813000" />
+      <workItem from="1590619347599" duration="550000" />
     </task>
     <servers />
   </component>

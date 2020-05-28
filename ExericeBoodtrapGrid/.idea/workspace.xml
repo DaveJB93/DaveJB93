@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40eb4dba-8fa0-42d5-ae42-517615f71b12" name="Default Changelist" comment="" />
+    <list default="true" id="e9c735b0-32a3-4da1-a383-436fb7168b90" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1bEhnkni67d99iGr6JTcOZLzAsF" />
+  <component name="ProjectId" id="1cC1ZPHHRU1cCH6zG0cHn5Mohaa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,27 +42,25 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dave\Desktop\ACE\Integrationweb\DaveJB93\ExericeBoodtrapGrid" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="40eb4dba-8fa0-42d5-ae42-517615f71b12" name="Default Changelist" comment="" />
-      <created>1588203328745</created>
+      <changelist id="e9c735b0-32a3-4da1-a383-436fb7168b90" name="Default Changelist" comment="" />
+      <created>1590017815422</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588203328745</updated>
-      <workItem from="1588203330085" duration="10718000" />
-      <workItem from="1588251921260" duration="1243000" />
-      <workItem from="1588386464046" duration="597000" />
-      <workItem from="1588809922617" duration="3634000" />
-      <workItem from="1588865090287" duration="592000" />
-      <workItem from="1588968243798" duration="599000" />
-      <workItem from="1589039338467" duration="182000" />
-      <workItem from="1589409277935" duration="1206000" />
-      <workItem from="1590013956611" duration="595000" />
-      <workItem from="1590619359336" duration="1376000" />
+      <updated>1590017815422</updated>
+      <workItem from="1590017817029" duration="8578000" />
+      <workItem from="1590619355512" duration="5355000" />
     </task>
     <servers />
   </component>
@@ -70,9 +68,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="292" y="118" key="FileChooserDialogImpl" timestamp="1588213902851">
+    <state x="13" y="0" key="SettingsEditor" timestamp="1590017833815">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="292" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1588213902851" />
+    <state x="13" y="0" key="SettingsEditor/0.0.1024.728@0.0.1024.728" timestamp="1590017833815" />
+    <state x="207" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1590619554862">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="207" y="186" key="com.intellij.ide.util.TipDialog/0.0.1024.728@0.0.1024.728" timestamp="1590619554862" />
+    <state x="168" y="157" key="run.anything.popup" timestamp="1590026382501">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="168" y="157" key="run.anything.popup/0.0.1024.728@0.0.1024.728" timestamp="1590026382501" />
   </component>
 </project>

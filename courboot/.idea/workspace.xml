@@ -34,6 +34,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Examen1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -58,7 +59,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589410285290</updated>
-      <workItem from="1589410287163" duration="5569000" />
+      <workItem from="1589410287163" duration="6173000" />
+      <workItem from="1590013962831" duration="5925000" />
+      <workItem from="1590619355999" duration="541000" />
     </task>
     <servers />
   </component>
@@ -66,6 +69,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="292" y="118" key="FileChooserDialogImpl" timestamp="1590014070035">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="292" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1590014070035" />
     <state x="13" y="0" key="SettingsEditor" timestamp="1589410316443">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
