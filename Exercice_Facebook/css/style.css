@@ -6,7 +6,7 @@ En tête CSS
 
 body {
 
-    width: 980px;/* largeur du site web*/
+
     width: 100%; /* On pourrait aussi prendre 100% de la largeur */
     margin: auto; /* pour centrer le site en largeur */
 

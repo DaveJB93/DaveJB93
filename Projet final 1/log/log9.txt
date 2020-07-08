@@ -1,0 +1,67 @@
+<div class="container text-center">
+    <div class="row">
+        <div class="col-md-6 col-lg-4">
+            <span>Entraineur Privé</span>
+              <h3>John Whisky</h3>
+                <img src="img/photo6.jpg" alt="Johnny">
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+            <img src="img/photo5.jpg" alt="Anna">
+               <span>Creative derector</span>
+                    <h3>Anna Labelle</h3>
+        </div>
+
+        <div class="col-lg-4 offset-md-4 offset-lg-0 col-md-4">
+            <img src="/img/photo7.jpg" alt="Paul">
+                <span>Entaineur de combat ultime</span>
+                     <h3>Paul Newman</h3>
+        </div>
+    </div>
+</div>
+
+********************************
+
+ <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-team mb-30">
+                    <div class="team-img">
+                        <img src="img/photo6.jpg" alt="Johnny">
+                        <div class="team-caption">
+                            <span>Entraineur Privé</span>
+                            <h3>John Whisky</h3>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-team mb-30">
+                    <div class="team-img">
+                        <img src="img/photo5.jpg" alt="Anna">
+                        <div class="team-caption">
+                            <span>Creative derector</span>
+                            <h3>Anna Labelle</h3>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-team mb-30">
+                    <div class="team-img">
+                        <img src="/img/photo7.jpg" alt="Paul">
+                        <div class="team-caption">
+                            <span>Entaineur de combat ultime</span>
+                            <h3>Paul Newman</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

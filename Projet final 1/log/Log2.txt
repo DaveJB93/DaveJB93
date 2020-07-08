@@ -1,0 +1,90 @@
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 h-100 fondVert">
+                <img  class="x-img x-img-none"  src="https://www.campuslotbiniere.ca/wp-content/uploads/2017/10/icone-en-savoir-plus-sm.png" >
+                    <h2>TU VEUX EN SAVOIR PLUS?</h2>
+                        <p>Gabrielle Lainesse-Frigon
+                        Aide pédagogique individuelle
+                        418 338-8591, poste 239</p>
+                <button type="button" class="btn btn-light">Envoie un courriel</button>
+            </div>
+
+
+course
+
+<i class="fas fa-running"></i>
+
+
+dumbbell
+
+<i class="fas fa-dumbbell"></i>
+
+
+soutient
+
+<i class="fas fa-fist-raised"></i>
+
+award
+
+<i class="fas fa-award"></i>
+
+
+
+
+<i class="flaticon-clock"></i>
+
+<i class="flaticon-healthcare-and-medical"></i>
+
+
+ <i class="flaticon-fitness"></i>
+
+
+
+
+<h2>Responsive Column Cards</h2>
+<p>Resize the browser window to see the effect.</p>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>Card 1</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Card 2</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Card 3</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>Card 4</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+

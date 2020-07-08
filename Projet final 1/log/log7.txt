@@ -1,0 +1,10 @@
+<section id="sectionBanniere parallaxe h-100">
+        <div class="container-fluid bg text-center" >
+            <div class="row align-items-center banniere h-100">
+                <div class="col align-self-center">
+                    <h1 class="pb-md-5">THE GYM PLUS</h1>
+                    <h2>WILD TRAINING</h2>
+                </div>
+            </div>
+        </div>
+    </section>

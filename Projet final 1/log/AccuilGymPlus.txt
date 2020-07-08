@@ -1,0 +1,163 @@
+GymPlus
+
+PageAcceuil
+
+tete
+
+nivagation
+
+Bannière avec titre
+/tete
+
+
+
+corps
+
+à propos du Gym
+
+
+Repousser vos limite
+
+3 case avec image
+
+entraineur
+
+3 case 
+Crossfit  combat Escalade
+
+
+/corps
+
+
+pieds
+
+3 caisse
+liens rapide
+
+heure d'ouverture
+
+facebook etc
+Info lettre
+
+******************************************
+<section id="sectionBanniere">
+    <div class="container-fluid bg text-center" >
+        <div class="row align-items-center banniere h-100">
+            <div class="col align-self-center">
+                <h1 class="pb-md-5">THE GYM PLUS</h1>
+                <h2>WILD TRAINING</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+************************
+
+ <section class="about-area section-padding30">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12">
+                        <!-- propos-img -->
+                        <div class="about-img ">
+                            <img src="img/photo1.jpg" alt="altète">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-caption">
+                            <!-- Section Tittle -->
+                            <div class="section-tittle section-tittle3 mb-35">
+                                <span>À PROPOS DU GYM</span>
+                                <h2>Prenez le temps de prendre soins de votre corps</h2>
+                            </div>
+                            <p class="pera-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p class="mb-65 pera-bottom">Pour un entrainement flexible selon vos capacité. Le gym offre un vague de pragramme adapté  votre condition physique</p>
+                            <a href="from.html" class="btn">Devenir membre</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+**************************************
+
+
+<section id="sectioncommunaute">
+<div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 h-100 fondVert">
+                <img  class="x-img x-img-none"  src="https://www.campuslotbiniere.ca/wp-content/uploads/2017/10/icone-en-savoir-plus-sm.png" >
+                    <h2>TU VEUX EN SAVOIR PLUS?</h2>
+                        <p>Gabrielle Lainesse-Frigon
+                        Aide pédagogique individuelle
+                        418 338-8591, poste 239</p>
+                <button type="button" class="btn btn-light">Envoie un courriel</button>
+            </div>
+
+            <div class="col-md-2 col-lg-4 h-100 fondJaune2">
+                <img  class="x-img x-img-none"  src="https://www.campuslotbiniere.ca/wp-content/uploads/2017/10/icone-etudiant-un-jour-sm.png" >
+                    <h2>DEVIENS ÉTUDIANT D'UN JOUR</h2>
+                    <p> L’activité Étudiant d’un jour est offerte tous les jours et tu peux t’inscrire en ligne.</p>
+                <button type="button" class="btn btn-light">Inscris-toi</button>
+            </div>
+
+            <div class="col-md-2 col-lg-4 h-100 fondBlueT">
+                <img  class="x-img x-img-none"  src="https://www.campuslotbiniere.ca/wp-content/uploads/2017/10/icone-pret-et-bourse-sm.png" >
+                        <h2>PRÊTS ET BOURSES</h2>
+                            <p>En t’inscrivant au Cégep de Thetford, tu peux faire la demande de prêts et de bourses.</p>
+                <button type="button" class="btn btn-light">Informe-toi</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<div class="container">
+                    <div class="row align-items-end justify-content-between">
+                        <div class="col-lg-6 col-md-10 col-sm-10">
+                            <div class="section-tittle section-tittle2">
+                                <span>oUR sERVICES FOR YOU</span>
+                                <h2>PUSH YOUR LIMITS FORWARD We Offer to you</h2>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-3">
+                            <a href="services.html" class="btn wantToWork-btn f-right">More Services</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+<section id="sectioncommunaute">
+<div class="container">
+<h2>Responsive Column Cards</h2>
+<p>Resize the browser window to see the effect.</p>
+
+<div class="row align-items-end justify-content-between">
+  <div class="columncol-lg-6 col-md-10 col-sm-10">
+    <div class="card">
+      <h3>Card 1</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+
+  <div class="column col-lg-6 col-md-10 col-sm-10">
+    <div class="card">
+      <i class="fas fa-fist-raised"></i>
+      <p>Some text</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column col-lg-6 col-md-10 col-sm-10">
+    <div class="card">
+      <i class="fas fa-award"></i>
+      	<p>Some text</p>
+      	<p>Some text</p>
+    </div>
+  </div>
+ </div>
+ </section>
+

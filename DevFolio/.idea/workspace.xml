@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51aa9a66-f176-4d99-9a6d-c30332a9f9dc" name="Default Changelist" comment="" />
+    <list default="true" id="51aa9a66-f176-4d99-9a6d-c30332a9f9dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Projet final 1/FandomWebsite/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projet final 1/GymPlus/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projet final 1/GymPlus/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Projet final 1/GymPlus/evenements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Correction Semaine 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Correction Semaine 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen1/Examen1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1/Examen1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Examen1/Examen1/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Examen1/Examen1/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercice_Facebook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercice_Facebook/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercice_Facebook/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercice_Facebook/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercice_Facebook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercice_Facebook/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ExericeBoodtrapGrid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ExericeBoodtrapGrid/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Han Solo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Han Solo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JeMePresente/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JeMePresente/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JeMePresenteCorrige/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JeMePresenteCorrige/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../courboot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../courboot/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -33,10 +48,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -60,10 +75,14 @@
       <workItem from="1588403752389" duration="1389000" />
       <workItem from="1588649314508" duration="594000" />
       <workItem from="1588804842580" duration="2458000" />
+      <workItem from="1593604321191" duration="989000" />
+      <workItem from="1593789485640" duration="597000" />
+      <workItem from="1593928475296" duration="599000" />
+      <workItem from="1594045844342" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
 </project>

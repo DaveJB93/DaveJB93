@@ -1,0 +1,81 @@
+/*CSS.CSS*/
+/*Crée par dave Jean Baptiste */
+/* Crée le 15 juin 2020*/
+
+html,body { margin:0; height:100%; width: 100%;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.zone1{
+    background-image: url("../img/img_zone1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding: 0vw;
+    margin: 0vw;
+    background-color: hsl(0, 0%, 0%);
+}
+
+
+.fondJaune{
+    background-color: yellow;
+    height: 100px;
+    margin-top: 20vw;
+
+}
+
+.zone1_info{
+    padding-top: 15vw;
+}
+
+.fondBlanc{
+    background-color: rgba(255, 255, 255, 0.46);
+    height: 100px;
+}
+#img_z2{
+    padding-top: 10vw;
+
+}
+
+.zone3{
+    background-image: url("../img/img_zone3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding: 10rem;
+}
+
+.zone4{
+    background-image: url("../img/img_zone4.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding: 10rem;
+}
+
+.fondVert{
+    background-color: forestgreen;
+    height: 100px;
+}
+
+.fondJaune2{
+    background-color: #c4e809;
+    height: 100px;
+}
+
+.fondBlueT{
+    background-color: slateblue;
+    height: 100px;
+}
+
+#blanc{
+    color: white;
+    font-weight: bold;
+    font-family: 'Khand', sans-serif;
+}
