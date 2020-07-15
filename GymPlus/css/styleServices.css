@@ -12,6 +12,30 @@ body {
 
 }
 
+header {
+    position: relative;
+    background-color : black;
+    height: 100%;
+    min-height : 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height : 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform : translateX (-50%) translateY (-50%);
+    -moz-transform : translateX (-50%) translateY (-50%);
+    -webkit-transform : translateX (-50%) translateY (-50%);
+    transform: translateX (-50%) translateY (-50%);
+}
+
 .carousel {
     width: 100%;
 }
@@ -123,4 +147,29 @@ body {
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+}
+
+.parallax2 {
+    /* L’image du Parallax */
+    background-image: url("../img/Scene-gym.png");
+    /* L’hauteur du Parallax */
+    min-height: 300px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: 50% -40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* style footer*/
+
+h4{
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
 }

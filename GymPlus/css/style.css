@@ -10,11 +10,24 @@
 
 
 }
+@font-face {
+    font-family: maPolice;
+    src: url(../font/CrossfitDemo-Bold.otf);
+}
+
+#titre,#sous-tite{
+    font-family: maPolice;
+    text-align: center;
+    font-size: 5rem;
+    color: darkred;
+    margin: auto;
+}
+
 .parallax1 {
     /* L’image du Parallax */
     background-image: url("../img/Ban1.jpg");
     /* L’hauteur du Parallax */
-    min-height: 300px;
+    min-height: 400px;
     /* Création de l’effet */
     background-attachment: fixed;
     background-position: 50% -40px;
@@ -91,3 +104,14 @@
     background-position: center;
 }
 
+
+/* style footer*/
+
+h4{
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}
