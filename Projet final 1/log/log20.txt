@@ -1,0 +1,20 @@
+<div class="row">
+            <div class="col-xl-12">
+                <div class="overlay"></div>
+                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                    <source src="video/big-bang-crossfit-clip.mp4" type="video/mp4">
+                </video>
+                <div class="container h-100">
+                    <div class="d-flex h-100 text-center align-items-center">
+                        <div class="w-100 text-white">
+                            <h1 class="display-3">Venez vivre l'expérience</h1>
+                            <p class="lead mb-0">Plaisir garantie</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+<h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>

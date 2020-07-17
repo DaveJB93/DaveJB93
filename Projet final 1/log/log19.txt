@@ -1,0 +1,19 @@
+<div class="container">
+<div class="row text-center mt-3">
+<div class="col-sm-3 offset-sm-4 offset-lg-0">
+<h1>Gallerie</h1>
+<hr class="divider bg-danger">
+   </div>
+        </div>
+<div class="row text-center">
+            <div class="col-sm-6 col-lg-4">
+          <img src="img/Gal1.jpg" class="img-fluid" alt="Gym">
+</div>
+            <div class="col-sm-6 col-lg-4">
+              <img src="img/Gal3.jpg" class="img-fluid" alt="Gym">
+</div>
+            <div class="col-sm-4 offset-sm-4 offset-lg-0 col-lg-4">
+              <img src="img/Gal4.jpg" class="img-fluid" alt="Gym">
+</div>
+        </div>
+</div>

@@ -24,8 +24,13 @@
     background-position: center;
 }
 
-.img
-{
+.img {
     display:block;
     margin:auto;
+    height: auto;
+    max-width : 100%;
+}
+
+.zone4{
+    padding: 5%;
 }

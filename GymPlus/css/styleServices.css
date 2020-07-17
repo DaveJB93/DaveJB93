@@ -11,8 +11,15 @@ body {
 
 
 }
-
-header {
+#tarifs{
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+.zone4{
+    padding: 5%;
+}
+/* Partie carousel vidéo*/
+#CrossfitVideo {
     position: relative;
     background-color : black;
     height: 100%;
@@ -21,16 +28,22 @@ header {
     overflow: hidden;
 }
 
-header video {
+#CrossfitVideo video {
+
     min-width: 100%;
     min-height : 100%;
     width: auto;
-    height: auto;
+    height: 100%;
     z-index: 0;
     -ms-transform : translateX (-50%) translateY (-50%);
     -moz-transform : translateX (-50%) translateY (-50%);
     -webkit-transform : translateX (-50%) translateY (-50%);
     transform: translateX (-50%) translateY (-50%);
+}
+
+.zone2{
+    padding-top: 5%;
+    Padding-bottom: 5%;
 }
 
 .carousel {
@@ -73,7 +86,16 @@ header video {
     border-radius: .5rem;
 }
 
+@font-face {
+    font-family: maPolice;
+    src: url(../font/CrossfitDemo-Bold.otf);
+}
+#sous-tite,#titre{
+    font-family: maPolice;
+    text-align: center;
+    color: darkred;
 
+}
 
 
 

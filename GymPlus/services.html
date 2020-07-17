@@ -51,32 +51,25 @@
 
     </nav>
 
-    <!---Carousel videos--->
 
+
+</header>
+<!---Carousel videos--->
+<section id="CrossfitVideo" class="zone1 mt-0">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xl-12">
-                <div class="overlay"></div>
+            <div class="col">
                 <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                    <source src="video/big-bang-crossfit-clip.mp4" type="video/mp4">
+                    <source src="video/WorkboxCrossfit.mp4" type="video/mp4">
                 </video>
-                <div class="container h-100">
-                    <div class="d-flex h-100 text-center align-items-center">
-                        <div class="w-100 text-white">
-                            <h1 class="display-3">Venez vivre l'expérience</h1>
-                            <p class="lead mb-0">Plaisir garantie</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
-
-</header>
+</section>
 
 
 <!--carousel-->
-<section>
+<section class="zone2">
 <!--Services-->
     <div class="container">
         <div class="row">
@@ -155,12 +148,12 @@
 
 
 <!--Prix-->
-<section>
-    <div class="container-fluid parallax2 text-xl-center h-100">
-        <div class="row">
+<section class="zone3">
+    <div class="container-fluid parallax2 text-xl-center h-100" id="tarifs">
+        <div class="row text-center">
             <div class="col">
-                <h1>NOS TARIFS</h1>
-                <p>Voir les options d'abonnements</p>
+                <h1 id="titre">NOS TARIFS</h1>
+                <h3 id="sous-tite">Voir les options d'abonnements</h3>
             </div>
         </div>
     <div class="row">
@@ -196,21 +189,27 @@
             </div>
         </div>
     </div>
+        <!--- ajout d'un bouton inscription--->
+        <div class="row text-center mt-5">
+            <div class="col">
+                <a href="contact.html" class="btn btn-danger">Inscrivez-vous <i class="ti-arrow-right"></i></a>
+            </div>
+        </div>
  </div>
 </section>
 <!--- ajout d'un bouton inscription--->
 
 <!---horaire--->
-<section>
+<section class="zone4">
 <div class="container text-xl-center h-100">
-    <div class="row">
+    <div class="row text-center">
         <div class="col">
             <h1>Horaire</h1>
             <hr class="divider bg-danger">
         </div>
     </div>
-    <table class="table">
-        <thead class="black white-text">
+    <table class="table table-hover">
+        <thead class="thead-dark white-text">
         <tr>
             <th scope="col">Cours</th>
             <th scope="col">Lundi</th>
@@ -269,26 +268,26 @@
 
 </section>
 
-<footer>
+<footer class="zone5">
     <div class="container-fluid parallax3 h-100 bg-3 text-center">
         <div class="row">
 
             <!---liens rapides---->
-            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+            <div class="col-xl-3 col-md-4 col-sm-6">
                 <!---titre--->
                 <h4>Liens rapides</h4>
                 <!---Liens--->
                 <ul>
-                    <li><a href="#index.html">Acceuil</a></li>
-                    <li><a href="#services.html">Services</a></li>
-                    <li><a href="#contact.html">Contact</a></li>
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
                 <!---Logo--->
                 <a href="index.html"><img src="img/incon.jpg" class="img-fluid<" alt="logo"></a>
             </div>
 
             <!----Heures d'affaires---->
-            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+            <div class="col-xl-3 col-md-4 col-sm-6">
                 <!----Titre---->
                 <h4>Heure d'ouverture</h4>
                 <!---Heures d'affaire--->
@@ -301,7 +300,7 @@
             </div>
 
             <!--- Rencontrez-nous------>
-            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+            <div class="col-xl-3 col-md-4 col-sm-6">
                 <!----titre---->
                 <h4>Venez nous rencontrer</h4>
 
@@ -317,17 +316,17 @@
 
 
             <!----reseaux sociaux---->
-            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+            <div class="col-xl-3 col-md-4 col-sm-6">
                 <!---titre---->
-                <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+                <h4>Follow Us</h4>
                 <!---reseaux--->
                 <ul>
                     <li><a type="button" class="btn-floating btn-fb">
-                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-facebook-f fa-10x"></i>
                     </a></li>
                     <!-- Twitter -->
                     <li><a type="button" class="btn-floating btn-tw">
-                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-twitter fa-10x"></i>
                     </a></li>
                 </ul>
             </div>

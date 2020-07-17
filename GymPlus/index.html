@@ -18,7 +18,7 @@
 
 <header>
     <!--Barre de navigation--->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark couleurNavBar" >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark couleurNavBar">
 
         <a class="navbar-brand" href="index.html"><img src="img/incon.jpg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"/></a>
 
@@ -51,22 +51,26 @@
 
     </nav>
 
-    <!---Bannière avec titre--->
-    <section class="zone1">
-        <div class="container-fluid parallax1 bg text-center h-100" >
-            <div class="row align-items-center">
-                <div class="col align-self-center">
-                    <h1 class="pb-md-5" id="titre">THE GYM PLUS</h1>
-                    <h2 id="sous-tite">WILD TRAINING</h2>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
 
 </header>
+
+<!---Bannière avec titre--->
+<section class="zone1">
+    <div class="container-fluid parallax1 bg text-center h-100" id="banniere">
+        <div class="row align-items-center">
+            <div class="col align-self-center">
+                <h1 class="pb-md-5" id="titre">THE GYM PLUS</h1>
+                <h2 id="sous-tite">WILD TRAINING</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <!---section 1 À propos fix--->
-<section id="zone2">
+<section class="zone2">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-12">
@@ -77,17 +81,17 @@
             </div>
             <div class="col-lg-6 col-md-12">
                 <div class="about-caption">
-                    <!-- Section Tittle -->
+                    <!-- Section titre -->
                     <div class="section-tittle section-tittle3 mb-35">
                         <h1>Bienvenue</h1>
                         <hr class="divider bg-danger">
-                        <span>À PROPOS DU GYM</span>
-                        <h2>Prenez le temps de prendre soins de votre corps</h2>
+                        <h2>À PROPOS DU GYM</h2>
+                        <h3>Prenez le temps de prendre soins de votre corps</h3>
                     </div>
                     <p class="pera-top">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <p class="mb-65 pera-bottom">Pour un entrainement flexible selon vos capacité. Le gym offre un vague de pragramme adapté  votre condition physique</p>
-                    <!-- Section Tittle -->
-                    <a href="contact.html" class="btn">Devenir membre</a>
+                    <!-- Section bouton titre -->
+                    <a href="contact.html" class="btn btn-danger">Devenir membre</a>
                 </div>
             </div>
         </div>
@@ -96,11 +100,14 @@
 
 
 <!---section 2 (communauté parallaxe) --->
-<section id="zone3">
-    <div class="container-fluid  text-xl-center parallax2 h-100">
-        <h2>Repoussez Vos Limites</h2>
-        <p>Mettez vous en forme pour une vie saine en santé</p>
-
+<section class="zone3">
+    <div class="container-fluid  text-xl-center parallax2 h-100" id="limite">
+        <div class="row text-center mt-3">
+            <div class="col">
+                <h1 id="titre2">Repoussez Vos Limites</h1>
+                <h3 id="sous-tite2">Mettez vous en forme pour une vie saine en sante</h3>
+            </div>
+        </div>
         <div class="row align-items-end justify-content-between">
             <div class="column">
                 <div class="card">
@@ -109,7 +116,7 @@
                     <p>Some text</p>
                     <p>Some text</p>
                     <div class="img-cap">
-                        <a href="services.html" class="">Découvrez s'en plus <i class="ti-arrow-right"></i></a>
+                        <a href="services.html" class="btn btn-danger">Découvrez s'en plus <i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -121,7 +128,7 @@
                     <p>Some text</p>
                     <p>Some text</p>
                     <div class="img-cap">
-                        <a href="services.html" class="">Découvrez s'en plus <i class="ti-arrow-right"></i></a>
+                        <a href="services.html" class="btn btn-danger">Découvrez s'en plus <i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -133,7 +140,7 @@
                     <p>Some text</p>
                     <p>Some text</p>
                     <div class="img-cap">
-                        <a href="services.html" class="">Découvrez s'en plus <i class="ti-arrow-right"></i></a>
+                        <a href="services.html" class="btn btn-danger">Découvrez s'en plus <i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -145,7 +152,7 @@
                     <p>Some text</p>
                     <p>Some text</p>
                     <div class="img-cap">
-                        <a href="services.html" class="">Découvrez s'en plus <i class="ti-arrow-right"></i></a>
+                        <a href="services.html" class="btn btn-danger">Découvrez s'en plus <i class="ti-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -154,9 +161,13 @@
 </section>
 
 <!---section (entraineur) 2 fix--->
-<section id="zone4">
+<section class="zone4">
     <div class="container text-center">
-        <h1>Coaches</h1>
+        <div class="row text-center mt-3">
+            <div class="col">
+                <h1>Coaches</h1>
+            </div>
+        </div>
         <hr class="divider bg-danger">
         <div class="row">
             <div class="col-md-6 col-lg-4">
@@ -183,26 +194,26 @@
 
 
 
-<footer id="zone5">
+<footer class="zone5">
     <div class="container-fluid parallax3 h-100 bg-3 text-center">
         <div class="row">
 
             <!---liens rapides---->
-            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+            <div class="col-xl-3 col-md-4 col-sm-6">
                 <!---titre--->
                 <h4>Liens rapides</h4>
                 <!---Liens--->
                 <ul>
-                    <li><a href="#index.html">Acceuil</a></li>
-                    <li><a href="#services.html">Services</a></li>
-                    <li><a href="#contact.html">Contact</a></li>
+                    <li><a href="index.html" class="text-decoration-none">Acceuil</a></li>
+                    <li><a href="services.html" class="text-decoration-none">Services</a></li>
+                    <li><a href="contact.html" class="text-decoration-none">Contact</a></li>
                 </ul>
                 <!---Logo--->
                 <a href="index.html"><img src="img/incon.jpg" class="img-fluid<" alt="logo"></a>
             </div>
 
             <!----Heures d'affaires---->
-            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+            <div class="col-xl-3  col-md-4 col-sm-6">
                 <!----Titre---->
                 <h4>Heure d'ouverture</h4>
                 <!---Heures d'affaire--->
@@ -215,7 +226,7 @@
             </div>
 
             <!--- Rencontrez-nous------>
-            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+            <div class="col-xl-3 col-md-4 col-sm-6">
                 <!----titre---->
                 <h4>Venez nous rencontrer</h4>
 
@@ -231,17 +242,19 @@
 
 
             <!----reseaux sociaux---->
-            <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+            <div class="col-xl-3 col-md-4 col-sm-6">
                 <!---titre---->
                 <h4>Follow Us</h4>
                 <!---reseaux--->
                 <ul>
                     <li><a type="button" class="btn-floating btn-fb">
-                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-facebook-f fa-10x"></i>
                     </a></li>
+                    <br>
+                    <br>
                     <!-- Twitter -->
                     <li><a type="button" class="btn-floating btn-tw">
-                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-twitter fa-10x"></i>
                     </a></li>
                 </ul>
             </div>

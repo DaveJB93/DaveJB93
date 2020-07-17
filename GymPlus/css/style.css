@@ -10,6 +10,22 @@
 
 
 }
+#banniere{
+    padding: 15%;
+}
+
+#limite{
+    padding: 10%;
+}
+
+.zone2{
+    padding: 5%;
+}
+.zone4{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 @font-face {
     font-family: maPolice;
     src: url(../font/CrossfitDemo-Bold.otf);
@@ -23,6 +39,13 @@
     margin: auto;
 }
 
+#sous-tite2,#titre2{
+    font-family: maPolice;
+    text-align: center;
+    color: darkred;
+
+}
+
 .parallax1 {
     /* L’image du Parallax */
     background-image: url("../img/Ban1.jpg");
@@ -34,6 +57,29 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+/* Cellulaires */
+@media only screen and (max-width: 480px){
+    #banniere img{
+        height: 66vw;
+    }
+}
+
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    #banniere img{
+        max-height: 50vh;
+        object-position: right;
+    }
+}
+
+/*Media Query text*/
+@media only screen and (min-width: 480px){
+    #sous-titre h2{
+        font-size: 30px;
+        color: white;
+    }
 }
 
 .* {
