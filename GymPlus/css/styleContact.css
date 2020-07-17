@@ -34,3 +34,14 @@
 .zone4{
     padding: 5%;
 }
+
+/* style footer*/
+
+h4{
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}
