@@ -61,26 +61,28 @@
 
 /* Cellulaires */
 @media only screen and (max-width: 480px){
-    #banniere img{
-        height: 66vw;
+    #banniere {
+        background-image: url("../img/ban3.jpg");
+        height: 300px;
+    }
+    .titre1{
+        color: darkslateblue;
+
     }
 }
 
 /* TABLETTES */
 @media screen and (min-width: 481px) and (max-width: 1199px) {
-    #banniere img{
-        max-height: 50vh;
-        object-position: right;
+    #banniere{
+        background-image: url("../img/ban2.jpg");
+        height: 480px;
     }
-}
-
-/*Media Query text*/
-@media only screen and (min-width: 480px){
-    #sous-titre h2{
-        font-size: 30px;
+    .titre1{
         color: white;
     }
 }
+
+
 
 .* {
     box-sizing: border-box;
