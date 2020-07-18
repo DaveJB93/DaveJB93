@@ -1,0 +1,97 @@
+* Cellulaires */ 
+Media queries css@media screen and (max-width: 480px){
+.patate{
+font-size: 5rem;
+}
+}
+/* TABLETTES */@media screen and (min-width: 481px) and (max-width: 1199px){.patate{font-size: 3rem;}}@media screen and (min-width: 1200px){.patate{font-size: 2rem;}}
+
+
+
+
+
+
+
+
+ <a href="contact.html" class="btn btn-danger">Découvrez s'en plus <i class="ti-arrow-right"></i></a>
+
+
+<i class="fab fa-youtube"></i></a>
+
+<i class="fab fa-facebook"></i></a>
+
+<i class="fab fa-instagram-square"></i></a>
+
+
+
+ /* Cellulaires */
+@media only screen and (max-width: 480px){
+    #banniere {
+        background-image: url("../img/ban3.jpg");
+        height: 300px;
+    }
+    .titre1{
+        Background-color: rgba(0, 0, 0, 0.63);
+        margin-top:10px;
+        margin-bottom: 10rem;
+    }
+}
+
+    /* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    #banniere    {
+        background-image: url("../img/ban2.jpeg");
+        height: 480px;
+    }
+    .titre1{
+        Background-color: rgba(0, 0, 0, 0.63);
+        margin-top:20rem;
+        margin-bottom: 15rem;
+    }
+
+
+
+
+
+/* Cellulaires */
+@media only screen and (max-width: 480px){
+    #banniere img{
+        height: 66vw;
+    }
+}
+
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    #banniere img{
+        max-height: 50vh;
+        object-position: right;
+    }
+}
+
+/*Media Query text*/
+@media only screen and (min-width: 480px){
+    #sous-titre h2{
+        font-size: 30px;
+        color: white;
+    }
+}
+
+
+
+
+http://localhost:63342/GymPlus/bootstrap-4.5.0-dist/css/bootstrap.css.map?_ijt=4hemu1ltp7d55o30bs0hlgi3bj
+
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .table {
+        width: 100%;
+        display: block;
+        
+    }
+}
+
+
+
+

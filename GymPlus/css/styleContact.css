@@ -11,6 +11,36 @@
 
 }
 
+.parallax1 {
+    /* L’image du Parallax */
+    background-image: url("../img/photo11.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 300px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@font-face {
+    font-family: maPolice;
+    src: url(../font/CrossfitDemo-Bold.otf);
+}
+
+#titre {
+    font-family: maPolice;
+    text-align: center;
+    font-size: 5rem;
+    color: darkred;
+    margin: auto;
+}
+
+.zone2{
+    padding-bottom: 5%;
+}
+
+
 .parallax3 {
     /* L’image du Parallax */
     background-image: url("../img/photo17.jpg");
@@ -18,7 +48,6 @@
     min-height: 300px;
     /* Création de l’effet */
     background-attachment: fixed;
-    background-position: 50% -40px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -45,3 +74,4 @@ ul {
     list-style-type: none;
     color: white;
 }
+
