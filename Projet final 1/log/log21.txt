@@ -1,0 +1,47 @@
+copie my man !!!
+
+
+/* Cellulaires */
+@media screen and (max-width: 576px){
+    .banniereResponsive img{
+        height: 66vw;
+    }
+}
+
+/* TABLETTES */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .banniereResponsive img{
+        max-height: 50vh;
+        object-position: right;
+    }
+}
+
+
+*****
+
+
+
+/* Cellulaires */
+@media screen and (max-width: 576px){
+    #banniere img{
+        height: 66vw;
+    }
+}
+
+/* TABLETTES */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    #banniere img{
+        max-height: 50vh;
+        object-position: right;
+    }
+}
+
+
+/*Media Query text/
+@media screen and (min-width: 576px){
+    section p{
+        font-size: 30px;
+        color: green;
+    }
+}
+

@@ -1,4 +1,3 @@
-En tête CSS
 
     /*CSS.CSS*/
     /*Crée par dave Jean Baptiste */
@@ -6,12 +5,106 @@ En tête CSS
 
 body {
 
-    width: 980px;/* largeur du site web*/
     width: 100%; /* On pourrait aussi prendre 100% de la largeur */
-    margin: auto; /* pour centrer le site en largeur */
-
 
 }
+
+header
+{
+    background-image: url(../img/0_0.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin: auto;
+}
+@font-face
+{
+        font-family: maPolice2;
+    src: url("League_of_Extraordinary_Justice.otf");
+}
+
+@font-face
+{
+        font-family: maPolice;
+        src:url("../font/JUSTICE_LEAGUE.ttf");
+}
+
+h1
+{
+        font-family: maPolice;
+        font-size: 14rem;
+        color: black;
+        text-align: center;
+        margin-top: 6rem;
+}
+
+h2
+{
+        font-family: maPolice;
+        font-size: 5rem;
+        color:white;
+        text-align: center;
+        padding-top: 5rem;
+}
+
+h4
+{
+        font-family: 'Muli', sans-serif;
+        font-size: 2rem;
+        font-weight: 100;
+        text-align: center;
+        padding-top: 2rem;
+}
+
+p
+{
+        font-family: 'Muli', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 100;
+        text-align: center;
+        color:white;
+}
+
+
+hr
+{
+        margin-bottom:30px;
+        margin-top:20px;
+        max-width: 200px;
+        border-width: 1px;
+        border-color:whitesmoke;
+}
+.fondGris {
+        background-color: rgba(112, 105, 114, 1);
+}
+
+.fondBlanc{
+        background-color: white;
+}
+
+
+.dim6photos {
+        height: 100%;
+        width: 100%;
+        display:block;
+        margin:auto;
+}
+
+
+.noir{
+    background-color: black;
+    height: 100px;
+}
+#modele{
+    text-align:center;
+    color: black;
+}
+
+#noir{
+    color: black;
+}
+
 
 .fondRouge{
     background-color: red;

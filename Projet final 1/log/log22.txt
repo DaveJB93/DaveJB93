@@ -1,0 +1,48 @@
+<section id="CrossfitVideo" class="zone1 mt-0">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                    <source src="video/big-bang-crossfit-clip.mp4" type="video/mp4">
+                </video>
+         
+                <div class="overlay"></div>
+                <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-red">
+                <h1 class="display-3">Venez vivre l'expérience</h1>
+                <p class="lead mb-0">Plaisir garantie</p>
+            </div>
+        </div>
+    </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+#CrossfitVideo .container-fluid{
+    position: relative;
+    z-index: 2;
+    height: 25rem;
+    color: #ffc107;
+}
+
+
+
+#CrossfitVideo .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color : black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+
+

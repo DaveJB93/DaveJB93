@@ -1,0 +1,38 @@
+ <div class="container text-center">
+    <div class="row">
+      <div class="col-md-6 col-lg-4 h-100">
+
+       </div>
+      <div class="col-md-6 col-lg-4 h-100">
+       
+      </div>
+   </div>
+</div>
+ 
+
+
+
+
+<div class="container-fluid bg-3 text-center">
+  <div class="row">
+    <div class="col">
+     <h1>Gallerie</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-3">
+       <img src="Gal1.jpg" class="img-fluid" alt="Gym">
+    </div>
+    <div class="col-sm-3">
+       <img src="Gal2.jpg" class="img-fluid" alt="Gym">
+    </div>
+  <div class="row">
+    <div class="col-sm-3">
+       <img src="Gal3.jpg" class="img-fluid" alt="Gym">
+    </div>
+    <div class="col-sm-3">
+       <img src="Gal4.jpg" class="img-fluid" alt="Gym">
+    </div>
+</div>
+</div>

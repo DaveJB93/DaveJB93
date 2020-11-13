@@ -1,0 +1,77 @@
+/*CSS.CSS*/
+/*Crée par dave Jean Baptiste */
+/* Crée le 17 juin 2020*/
+
+.body {
+
+    width: 100%; /* On pourrait aussi prendre 100% de la largeur */
+    margin: auto; /* pour centrer le site en largeur */
+    height: 100%;
+
+
+}
+
+.parallax1 {
+    /* L’image du Parallax */
+    background-image: url("../img/photo11.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 300px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@font-face {
+    font-family: maPolice;
+    src: url(../font/CrossfitDemo-Bold.otf);
+}
+
+#titre {
+    font-family: maPolice;
+    text-align: center;
+    font-size: 5rem;
+    color: darkred;
+    margin: auto;
+}
+
+.zone2{
+    padding-bottom: 5%;
+}
+
+
+.parallax3 {
+    /* L’image du Parallax */
+    background-image: url("../img/photo17.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 300px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img {
+    display:block;
+    margin:auto;
+    height: auto;
+    max-width : 100%;
+}
+
+.zone4{
+    padding: 5%;
+}
+
+/* style footer*/
+
+h4{
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}
+

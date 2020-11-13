@@ -1,0 +1,165 @@
+/*CSS.CSS*/
+/*Crée par dave Jean Baptiste */
+/* Crée le 17 juin 2020*/
+
+.body {
+
+    width: 100%; /* On pourrait aussi prendre 100% de la largeur */
+    margin: auto; /* pour centrer le site en largeur */
+    height: 100%;
+
+
+}
+#banniere{
+    padding: 15%;
+}
+
+#limite{
+    padding: 10%;
+}
+
+.zone2{
+    padding: 5%;
+}
+.zone4{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+@font-face {
+    font-family: maPolice;
+    src: url(../font/CrossfitDemo-Bold.otf);
+}
+
+#titre,#sous-tite{
+    font-family: maPolice;
+    text-align: center;
+    font-size: 5rem;
+    color: darkred;
+    margin: auto;
+}
+
+#sous-tite2,#titre2{
+    font-family: maPolice;
+    text-align: center;
+    color: darkred;
+
+}
+
+.parallax1 {
+    /* L’image du Parallax */
+    background-image: url("../img/Ban1.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 400px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: 50% -40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Cellulaires */
+@media only screen and (max-width: 480px){
+    #banniere {
+        background-image: url("../img/ban3.jpg");
+        height: 300px;
+    }
+    .titre1{
+        color: darkslateblue;
+
+    }
+}
+
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    #banniere{
+        background-image: url("../img/ban2.jpg");
+        height: 480px;
+    }
+    .titre1{
+        color: white;
+    }
+}
+
+
+
+.* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.parallax2 {
+    /* L’image du Parallax */
+    background-image: url("../img/Scene-gym.png");
+    /* L’hauteur du Parallax */
+    min-height: 300px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: 50% -40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.parallax3 {
+    /* L’image du Parallax */
+    background-image: url("../img/photo17.jpg");
+    /* L’hauteur du Parallax */
+    min-height: 300px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: 50% -40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* style footer*/
+
+h4{
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+}

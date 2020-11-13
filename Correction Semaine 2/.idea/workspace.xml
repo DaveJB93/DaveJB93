@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="40eb4dba-8fa0-42d5-ae42-517615f71b12" name="Default Changelist" comment="" />
+    <list default="true" id="40eb4dba-8fa0-42d5-ae42-517615f71b12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevFolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DevFolio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GymPlus/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../GymPlus/contact.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,14 +47,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../formulaire" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,16 +83,42 @@
       <workItem from="1589409277935" duration="1206000" />
       <workItem from="1590013956611" duration="595000" />
       <workItem from="1590619359336" duration="1376000" />
+      <workItem from="1591836504409" duration="899000" />
+      <workItem from="1592113351139" duration="825000" />
+      <workItem from="1592159531258" duration="1989000" />
+      <workItem from="1592260028096" duration="1833000" />
+      <workItem from="1592395767353" duration="1256000" />
+      <workItem from="1592708286504" duration="542000" />
+      <workItem from="1593576496862" duration="598000" />
+      <workItem from="1593789496001" duration="636000" />
+      <workItem from="1593928471852" duration="599000" />
+      <workItem from="1594045851871" duration="598000" />
+      <workItem from="1594740312403" duration="598000" />
+      <workItem from="1594808168814" duration="1198000" />
+      <workItem from="1594907670642" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="292" y="118" key="FileChooserDialogImpl" timestamp="1588213902851">
-      <screen x="0" y="0" width="1024" height="728" />
+    <state x="438" y="134" key="FileChooserDialogImpl" timestamp="1592441027988">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="292" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1588213902851" />
+    <state x="438" y="134" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592441027988" />
   </component>
 </project>
