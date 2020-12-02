@@ -178,22 +178,10 @@
 
 /*éducations et expériences*/
 
-.case_eduction .prt_bottompadder115{
-    display:inline-block;
-    width:100%;
-
-}
-
-.prt_bottompadder115{
-    padding-bottom:115px;
-}
-
-
+/*head*/
 .prt_entetetitre_enveloppe{
     text-align:center;
 }
-
-
 .prt_entetetitre{
     margin-bottom:50px;
     display: inline-block;
@@ -204,7 +192,6 @@
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-
 .prt_entetetitre h1{
     font-size:40px;
     margin:0px;
@@ -237,7 +224,13 @@
     font-weight: 500;
 }
 
+/*fin head*/
 
+
+.prt_case_eduction{
+    display:inline-block;
+    width:100%;
+}
 .prt_formasection{
     display:inline-block;
     width:100%;
@@ -256,12 +249,11 @@
     margin: 0px auto;
     z-index: -1;
 }
-
 .prt_formabox_droit{
     display: table;
     width: 100%;
     margin-bottom:30px;
-    /*position:relative;*/
+    position:relative;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -285,7 +277,7 @@
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-.prt_formabox_droit:hover:after {
+.prt_formabox_droit:hover:after{
     background-color: #ffffff;
     border: 3px solid #f6483b;
     -webkit-transition: all 0.3s;
@@ -294,6 +286,226 @@
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+.prt_formabox_gauche{
+    display: table;
+    width: 100%;
+    margin-bottom:30px;
+    text-align:right;
+    position:relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.prt_formabox_gauche:after{
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 3px solid #ffffff;
+    top: 50%;
+    right: -22px;
+    margin-top: -7px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.prt_formabox_gauche:hover:after{
+    background-color: #ffffff;
+    border: 3px solid #f6483b;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.prt_formabox_droit:hover .prt_formabox_annee h1{
+    color:#f6483b;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.prt_formabox_gauche:hover .prt_formabox_annee h1{
+    color:#f6483b;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.prt_formabox_gauche .prt_formabox_annee{
+    float:right;
+    padding-top: 30px;
+}
+.prt_formabox_annee{
+    display: table-cell;
+    width: 200px;
+    vertical-align: middle;
+}
+.prt_formabox_annee h1{
+    font-size:60px;
+    margin:0px;
+    color:#202020;
+    font-weight: 500;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.prt_formabox_droit:hover .prt_formabox_annee h1{
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-delay: 300ms;
+    -moz-animation-delay: 300ms;
+    -ms-animation-delay: 300ms;
+    -o-animation-delay: 300ms;
+    animation-delay: 300ms;
+    animation-iteration-count: infinite;
+    animation-name: pulse;
+}
+.prt_formabox_gauche:hover .prt_formabox_annee h1{
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-delay: 300ms;
+    -moz-animation-delay: 300ms;
+    -ms-animation-delay: 300ms;
+    -o-animation-delay: 300ms;
+    animation-delay: 300ms;
+    animation-iteration-count: infinite;
+    animation-name: pulse;
+}
+.prt_formabox_gauche .prt_formabox_info{
+    float:left;
+}
+.prt_formabox_info{
+    display: table-cell;
+    width: calc(100% - 200px);
+}
+.prt_formabox_info h4{
+    font-size:18px;
+    text-transform:capitalize;
+    margin-top:0px;
+}
+.prt_formabox_info span{
+    display:inline-block;
+    width:100%;
+    color:#ffffff;
+    text-transform:capitalize;
+    margin-bottom:10px;
+}
+.prt_formabox_info p{
+    margin:0px;
+}
+.prt_case_experience{
+    display:inline-block;
+    width:100%;
+}
+.prt_experience{
+    display:inline-block;
+    width:100%;
+}
+.prt_experiencebox{
+    display: table;
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+    padding: 50px 10px 50px 0px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.prt_experiencebox:after{
+    content: "";
+    position: absolute;
+    background-color: #111111;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 69%;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.prt_experiencebox:hover:after{
+    background-color:rgba(255, 255, 255, 0.2);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.prt_experiencebox:hover .prt_experience_annee h1{
+    color:#f6483b;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.prt_experience_annee{
+    display: table-cell;
+    width: 230px;
+    vertical-align: middle;
+}
+.prt_experience_annee h1{
+    font-size:100px;
+    margin:0px;
+    color:#202020;
+    font-weight: 500;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.prt_experience_annee h4{
+    font-size:18px;
+    text-transform:capitalize;
+    margin:0px;
+    text-align:right;
+    color:#b7b7b7;
+}
+.prt_experience_info{
+    display: table-cell;
+    width: calc(100% - 230px);
+    padding-left:30px;
+}
+.prt_experience_info h4{
+    font-size:18px;
+    text-transform:capitalize;
+    margin-top:0px;
+}
+.prt_experience_info span{
+    display:inline-block;
+    width:100%;
+    color:#ffffff;
+    text-transform:capitalize;
+    margin-bottom:10px;
+}
+.prt_experience_info p{
+    margin:0px;
+}
+/**verifier**/
 /*Fin éducation et formation*/
 
 /*footer*/

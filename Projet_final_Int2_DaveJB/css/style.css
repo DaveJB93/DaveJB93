@@ -8,6 +8,8 @@ body {
     height: 100%;
 }
 
+
+
 /* barre navigation*/
 .navbar-b {
     transition: all .5s ease-in-out;
@@ -252,7 +254,48 @@ body {
 .intro-title{
     color: white;
     padding-top: 15rem;
+    font-size: 4.5rem;
 }
+
+/* sous-titre animé*/
+h5{
+    text-align: center;!important;
+
+    transition: opacity .15s ease-in;
+    color: white;
+    font-size: 2.5rem;
+}
+h5 + h5 { opacity: 0; }
+/* fin sous-titre*/
+
+/*Compétence*/
+
+.competence {
+    padding: 50px;
+}
+
+.labels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+
+
+h4 {
+    color: #666;
+}
+
+.progress {
+    height: 5px;
+}
+.progress-bar {
+    background: -webkit-linear-gradient(left, #4e4e4e 0%,red 100%); /* Chrome10-25,Safari5.1-6 */
+}
+
+/*/fin compétence*/
+
+
 
 /*footer*/
 
