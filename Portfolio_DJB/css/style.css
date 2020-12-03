@@ -189,7 +189,7 @@ body {
 
 .parallax1 {
     /* L’image du Parallax */
-    background-image: url("../img/intro-bg.jpg");
+    background-image: url("../assets/img/intro-bg.jpg");
     /* L’hauteur du Parallax */
     min-height: 300px;
     /* Création de l’effet */
@@ -254,11 +254,20 @@ body {
 .intro-title{
     color: white;
     padding-top: 15rem;
+    font-size: 4.5rem;
 }
 
-.text-slider-items{
+/* sous-titre animé*/
+h5{
+    position: absolute;
+    transition: opacity .15s ease-in;
     color: white;
+    font-size: 2.5rem;
+    width: 400px;
+    left: calc(50% - 200px);
 }
+h5 + h5 { opacity: 0; }
+/* fin sous-titre*/
 
 /*Compétence*/
 
@@ -292,6 +301,6 @@ h4 {
 /*footer*/
 
 #footer{
-    background: url("../img/footer-background-photo.jpg");
+    background: url("../assets/img/footer-background-photo.jpg");
 
 }

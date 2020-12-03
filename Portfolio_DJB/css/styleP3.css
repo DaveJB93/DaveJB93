@@ -180,17 +180,18 @@ body {
 
 /* fin de barre de navigation*/
 
+/*Taille des images project (échantillion)*/
 
 img{
     width: 100%;
     height: 90%;
 }
-
+/*Fin Taille des images */
 
 
 .parallax1 {
     /* L’image du Parallax */
-    background-image: url("../img/brick2.jpg");
+    background-image: url("../assets/img/brick2.jpg");
     /* L’hauteur du Parallax */
     min-height: 300px;
     /* Création de l’effet */
@@ -250,7 +251,7 @@ img{
 }
 
 
-/* FACULTATIF*/
+
 .service-box .service-ico {
     margin-bottom: 1rem;
     color: #1e1e1e;
@@ -271,7 +272,7 @@ img{
     color: #4e4e4e;
 }
 
-
+/* Titre*/
 .prt_entetetitre_enveloppe{
     text-align:center;
 }
@@ -322,7 +323,59 @@ img{
 
 }
 
+/*Fin de titre*/
+
+.service-box {
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+.service-box:hover .ico-circle {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #f6483b;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.service-box .service-ico {
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+}
+
+.service-box .ico-circle {
+    transition: all 500ms ease;
+    font-size: 4rem;
+}
+
+.service-box .s-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: .4rem 0;
+}
+
+.service-box .s-description {
+    color: #4e4e4e;
+}
+
+
+.ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #f6483b;
+    display: block;
+}
+/*Services*/
+
+/*Fin de service*/
 #footer{
-    background: url("../img/footer-background-photo.jpg");
+    background: url("../assets/img/footer-background-photo.jpg");
 
 }

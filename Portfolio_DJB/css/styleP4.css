@@ -186,7 +186,7 @@ body {
 
 .parallax1 {
     /* L’image du Parallax */
-    background-image: url("../img/mur-brique-texture-noir_53876-63583.jpg");
+    background-image: url("../assets/img/mur-brique-texture-noir_53876-63583.jpg");
     /* L’hauteur du Parallax */
     min-height: 300px;
     /* Création de l’effet */
@@ -200,7 +200,7 @@ body {
 
 
 #footer{
-    background: url("../img/footer-background-photo.jpg");
+    background: url("../assets/img/footer-background-photo.jpg");
 
 }
 
